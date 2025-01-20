@@ -25,7 +25,7 @@ public class InputManager : MonoBehaviour
         {
             inputVector += Vector2.right;
         }
-
+        
         OnMove?.Invoke(inputVector);
     }
 }
